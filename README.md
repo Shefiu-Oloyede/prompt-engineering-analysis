@@ -35,6 +35,14 @@ Each response was rated on a scale of 1-5 for each criterion.
 ## Prompts Tested
 
 ### Prompt 1: Simple Request
+**Response Quality Score:** 4.0/5
+
+**Strengths:** Clear, well-structured, includes key features
+
+**Weaknesses:** Could include pricing information
+
+---
+### Prompt 2: Detailed & Structured
 **Response Quality Score:** 4.8/5
 
 **Strengths:** Highly structured, followed all requirements, professional tone
@@ -42,33 +50,27 @@ Each response was rated on a scale of 1-5 for each criterion.
 **Weaknesses:** Slightly exceeded word count
 
 ---
-
 ### Prompt 3: Role-Based Prompt
-**Response Quality Score:** 4.8/5
+**Response Quality Score:** 4.5/5
 
-**Strengths:** Highly structured, followed all requirements, professional tone
-
-**Weaknesses:** Slightly exceeded word count
-
----
-
-### Prompt 3: Role-Based Prompt
-**Response Quality Score:** [4.5/5]
 **Strengths:** Professional tone, focused on benefits, engaging
-**Weaknesses:** Less structured than a detailed prompt
+
+**Weaknesses:** Less structured than detailed prompt
 
 ---
-
 ### Prompt 4: Chain-of-Thought
-**Response Quality Score:** [4.6/5]
+**Response Quality Score:** 4.6/5
+
 **Strengths:** Shows reasoning, well-thought-out, addresses key points
+
 **Weaknesses:** Response was longer but justified
 
 ---
-
 ### Prompt 5: Example-Based Prompt
-**Response Quality Score:** [4.4/5]
+**Response Quality Score:** 4.4/5
+
 **Strengths:** Consistent with example style, concise
+
 **Weaknesses:** Less unique than other prompts
 
 ---
@@ -81,14 +83,14 @@ Each response was rated on a scale of 1-5 for each criterion.
 |------------|---------------|---------|
 | Detailed & Structured | 4.8 | 🥇 Best |
 | Chain-of-Thought | 4.6 | 🥈 Second |
-| Example-Based | 4.4 | 🥉 Third |
-| Role-Based | 4.5 | 🥈 Second |
-| Simple/Direct | 4.2 | Last |
+| Role-Based | 4.5 | 🥉 Third |
+| Example-Based | 4.4 | Fourth |
+| Simple/Direct | 4.0 | Last |
 
 ### Key Findings:
 
 1. **Structured prompts outperform simple requests**
-   - Adding specific formatting requirements improves response quality by ~14%
+   - Adding specific formatting requirements improves response quality by ~20%
    - ChatGPT responds better with clear expectations
 
 2. **Detail matters**
@@ -107,7 +109,7 @@ Each response was rated on a scale of 1-5 for each criterion.
 
 ## Recommendations for Optimal Prompting
 
-### Best Practices (Based on This Analysis):
+### Best Practices:
 
 ✅ **DO:**
 - Be specific and detailed in your instructions
@@ -133,38 +135,9 @@ Each response was rated on a scale of 1-5 for each criterion.
 
 ---
 
-## How to Use This Analysis
-
-This analysis demonstrates:
-- How to systematically evaluate AI responses
-- The impact of prompt structure on output quality
-- Methodology for A/B testing AI systems
-- Documentation practices for AI experiments
-
-**Relevant for:** AI training roles, prompt engineering, data quality assessment, 
-content evaluation positions.
-
----
-
-## Future Improvements
-
-- [ ] Test more prompt categories (negative examples, SCAMPER technique)
-- [ ] Expand to different AI models (Claude, Gemini, Cohere)
-- [ ] Quantify cost-effectiveness of prompt variations
-- [ ] Test on different task types (coding, analysis, creative writing)
-- [ ] Develop automated scoring system
-
----
-
 ## Author
 
-**Shefiu Oloyede**  
-Email: oloyedeshefiu1999@gmail.com  
-LinkedIn: linkedin.com/in/shefiu-oloyede  
+**Shefiu Oloyede**
+Email: oloyedeshefiu1999@gmail.com
+LinkedIn: linkedin.com/in/shefiu-oloyede
 GitHub: github.com/shefiu-oloyede
-
----
-
-## License
-
-This project is open source and available for educational purposes.
