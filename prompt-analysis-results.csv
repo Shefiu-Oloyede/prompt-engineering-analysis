@@ -1,0 +1,6 @@
+Prompt_ID,Prompt_Type,Clarity_Score,Accuracy_Score,Relevance_Score,Consistency_Score,Length_Score,Average_Score
+1,Simple/Direct,4,4,4,4,4,4.0
+2,Detailed/Structured,5,5,5,5,4,4.8
+3,Role-Based,5,4,4,4,4.5,4.3
+4,Chain-of-Thought,5,5,5,4,4.2,4.6
+5,Example-Based,4,4,5,4,4.4,4.4
